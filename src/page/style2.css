@@ -1,0 +1,36 @@
+table {
+  padding-bottom: 50%;
+}
+#content {
+  border: 1px solid whitesmoke;
+  border-radius: 9px;
+  padding-bottom: 50%;
+  margin: 10px 3px 20px 1px;
+  height: 150px;
+}
+
+tr:nth-child(2) {
+  /* background-color: whitesmoke;*/
+}
+#storefront,
+#delete {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+/*
+#storefront {
+  border-left: 1px solid gray;
+  border-radius: 9px;
+}*/
+.iconos {
+  position: relative;
+  left: 50px;
+}
+#matriz-documentos {
+  background-color: rgb(224, 235, 255);
+  border: 1px solid gray;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+}
