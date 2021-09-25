@@ -1,4 +1,5 @@
 import React from "react";
+import { Alert } from "../components/Alert";
 
 function Page3(props) {
   if (props.currentStep !== 3) {
@@ -9,7 +10,7 @@ function Page3(props) {
       <div className="iconos ml-10">
         {" "}
         <i className="material-icons ">
-          <span class="material-icons-outlined">person_add_alt</span>
+          <span class="material-icons">person_add_alt</span>
         </i>
         <i className="material-icons " id="delete">
           delete
@@ -59,6 +60,7 @@ function Page3(props) {
           </tbody>
         </table>
       </div>
+      <Alert />
     </div>
   );
 }

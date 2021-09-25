@@ -6,12 +6,12 @@ function Page1(props) {
   }
 
   return (
-    <div className="row">
+    <div className="row  ">
       <div className="mb-10px">
         {" "}
         <i className="material-icons mb-2">arrow_back</i> Regresar
       </div>
-      <div className="col-3" id="depositante">
+      <div className="col-sm-3 col-md-4 " id="depositante">
         <legend>Depositante</legend>
         <hr />
         <div className="form-group  mb-2">
@@ -117,7 +117,7 @@ function Page1(props) {
         </div>
       </div>
       {/* Fila #1  */}
-      <div className="col-7  " id="deposito">
+      <div className="col-sm-3 col-md-7   " id="deposito">
         <legend>Deposito</legend>
         <hr />
         <div className="row  mb-3">

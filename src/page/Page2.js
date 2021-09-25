@@ -1,3 +1,4 @@
+import { Alert } from "../components/Alert";
 import "./style2.css";
 function Page2(props) {
   if (props.currentStep !== 2) {
@@ -59,6 +60,7 @@ function Page2(props) {
           </tbody>
         </table>
       </div>
+      <Alert />
     </div>
   );
 }

@@ -40,12 +40,12 @@ export class MasterForm extends Component {
     if (currentStep > 1) {
       return (
         <button
-          className="btn btn-secondary"
+          className="btn btn-primary text-center  "
           id="back"
           type="button"
           onClick={this.prev}
         >
-          Previous
+          Atrás
         </button>
       );
     }
@@ -58,11 +58,11 @@ export class MasterForm extends Component {
       return (
         <button
           id="next"
-          className="btn btn-primary "
+          className="btn btn-primary text-center"
           type="button"
           onClick={this.next}
         >
-          Next
+          Siguiente
         </button>
       );
     }
@@ -71,7 +71,7 @@ export class MasterForm extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container justify-content">
         <h1>React Form</h1>
         <Breadcrumb />
 

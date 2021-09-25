@@ -1,7 +1,3 @@
-#next,
-#back {
-}
-
 .container {
 }
 
@@ -22,3 +18,70 @@ hr {
   border-style: dashed;
   border-top-width: 4px;
 }
+.container-button {
+}
+#next {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 7px 2px;
+  position: relative;
+  left: 83%;
+  width: 125px;
+}
+#back {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 4px 2px;
+  position: relative;
+  left: 82%;
+  width: 125px;
+}
+@media (max-width: 900px) {
+  #depositante {
+    margin-left: 35px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    overflow: auto;
+    width: 100%;
+  }
+
+  #deposito {
+    margin-left: 20px;
+    overflow: auto;
+    width: 100%;
+  }
+  .container-button {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  #next {
+    position: relative;
+    width: 97px;
+    left: 20%;
+
+    font-size: 20px;
+  }
+  #back {
+    position: relative;
+    width: 97px;
+    left: 10%;
+
+    font-size: 20px;
+  }
+}
+/*
+  position: relative;
+  float: right;
+  left: 2%;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+  border: 5px solid;
+  margin-right: 1px;
+*/
