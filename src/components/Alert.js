@@ -1,5 +1,6 @@
 import React from "react";
 import swal from "sweetalert";
+import "../page/style2.css";
 
 export const Alert = () => {
   const showalert = () => {
@@ -15,6 +16,7 @@ export const Alert = () => {
   return (
     <div>
       <button
+        id="borrador"
         type="button"
         className="btn btn-outline-secondary position-relative"
         onClick={() => showalert()}

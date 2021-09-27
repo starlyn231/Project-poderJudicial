@@ -14,8 +14,8 @@ const BodyForm = () => {
             className="form-control custom-selec"
           >
             <option selected>Seleccionar tipo de identificación</option>
-            <option value="male">Cedula</option>
-            <option value="female">Pasaporte</option>
+            <option value="cedula">Cedula</option>
+            <option value="pasaporte">Pasaporte</option>
           </select>
         </div>
         <div className="form-group">
@@ -23,7 +23,7 @@ const BodyForm = () => {
           <input
             type="number"
             name="cedula"
-            id="username"
+            id="cedula"
             className="form-control  mb-2"
             placeholder="223-0032312-7"
             required
@@ -74,7 +74,7 @@ const BodyForm = () => {
                 type="tel"
                 name="telefono"
                 placeholder="Ej.: 809-555-555"
-                id="email"
+                id="telefono"
                 className="form-control"
               />
               <div className="invalid-feedback">Looks good!</div>

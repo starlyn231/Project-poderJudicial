@@ -19,7 +19,7 @@
   background: #ecf0f1;
   text-align: center;
   position: relative;
-  padding: 20px 20px 0 60px;
+  padding: 20px 95px 0 60px;
   margin: 0 1px 0 0;
   font-size: 20px;
   text-decoration: none;
@@ -58,7 +58,7 @@
 }
 
 .crumbs ul li:last-child a {
-  padding-right: 30px;
+  padding-right: 20px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -68,11 +68,45 @@
 }
 
 .crumbs ul li a:hover {
-  background: #2c3e50;
+  background: #2b589a;
   color: #fff;
 }
 
 .crumbs ul li a:hover::after {
   border-left-color: #2c3e50;
-  color: #fff;
+  color: #1b334b;
+}
+
+@media (max-width: 1400px) {
+  .crumbs {
+    text-align: center;
+  }
+  .crumbs ul {
+    list-style: none;
+    display: inline;
+  }
+
+  .crumbs ul li {
+    display: inline-table;
+  }
+  .crumbs ul li a {
+    display: inline-table;
+    float: left;
+    height: 50px;
+    background: #ecf0f1;
+    text-align: center;
+    position: relative;
+    padding: 10px 70px 0 40px;
+    margin: 0 5px 0 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2c3e50;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .crumbs ul li:last-child a {
+    padding-right: 20px;
+    border: 3px solid black;
+    border-top-right-radius: 0px;
+  }
 }

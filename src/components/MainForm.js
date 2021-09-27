@@ -87,7 +87,7 @@ export class MasterForm extends Component {
           {" "}
           <i className="material-icons m-4">arrow_back</i> Regresar
         </div>
-        <h6 className="text-primary font-weight-bold">
+        <h6 id="formulario-deposito" className="text-primary font-weight-bold">
           Formulario de deposito expendiente presencial
         </h6>
         <Breadcrumb currentStep={this.state.currentStep} />

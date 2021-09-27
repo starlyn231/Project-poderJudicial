@@ -1,13 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./breadcrumb.css";
 function Breadcrumb(props) {
   return (
     <>
       <div className="row crumbs">
         <ul className="col-sm col-12">
-          <li>
-            <a href="">Recepcion</a>
-          </li>
           <li>
             <a href="">Inmoliario</a>
           </li>
