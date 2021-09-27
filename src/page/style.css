@@ -25,9 +25,9 @@ hr {
   text-decoration: none;
   font-size: 15px;
   cursor: pointer;
-  margin: 7px 2px;
+  margin: 10px 2px;
   position: relative;
-  left: 83%;
+  left: 77%;
   width: 125px;
 }
 #back {
@@ -35,9 +35,9 @@ hr {
   text-decoration: none;
   font-size: 15px;
   cursor: pointer;
-  margin: 4px 2px;
+  margin: 10px 2px;
   position: relative;
-  left: 82%;
+  left: 76%;
   width: 125px;
 }
 @media (max-width: 900px) {
@@ -85,3 +85,9 @@ hr {
   border: 5px solid;
   margin-right: 1px;
 */
+.rojo {
+  background-color: tomato;
+}
+.azul {
+  background-color: aqua;
+}

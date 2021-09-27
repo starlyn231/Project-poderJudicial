@@ -48,6 +48,17 @@ export class MasterForm extends Component {
           Atrás
         </button>
       );
+    } else if ((currentStep = 1)) {
+      return (
+        <button
+          className="btn btn-secondary text-center  "
+          id="back"
+          type="button"
+          onClick={this.prev}
+        >
+          Atrás
+        </button>
+      );
     }
     return null;
   }
@@ -72,8 +83,14 @@ export class MasterForm extends Component {
   render() {
     return (
       <div className="container justify-content">
-        <h1>React Form</h1>
-        <Breadcrumb />
+        <div className="mb-10px">
+          {" "}
+          <i className="material-icons m-4">arrow_back</i> Regresar
+        </div>
+        <h6 className="text-primary font-weight-bold">
+          Formulario de deposito expendiente presencial
+        </h6>
+        <Breadcrumb currentStep={this.state.currentStep} />
 
         <form>
           <Page1 currentStep={this.state.currentStep} />

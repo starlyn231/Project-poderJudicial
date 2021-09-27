@@ -69,7 +69,7 @@ function Page4(props) {
         <div className="col-sm-6 col-md-3" id="cuadro-documentos">
           <h6 className="text-left mt-4">Matriz de documentos</h6>
           <hr />
-          <div className="contenedor-list">
+          <div className="contenedor-list ">
             <ul className="">
               <li>No cargado</li>
               <li>Documento vinculado</li>

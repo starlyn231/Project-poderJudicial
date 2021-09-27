@@ -50,19 +50,8 @@ tr:nth-child(2) {
 .contenedor-list {
   overflow: hidden;
 }
-.contenedor-list li {
-  list-style-type: none;
-  display: block;
-  font-size: 14px;
-  list-style: none;
-}
-
-li {
-  list-style: none;
-}
 
 .contenedor-list ul {
-  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -70,44 +59,57 @@ li {
 .contenedor-list li {
   padding-left: 1em;
   text-indent: -0.7em;
-  color: aqua;
+  display: list-item;
+  list-style-position: outside;
+  list-style-type: square;
 }
 .contenedor-list li:nth-child(1) {
   color: gray; /* or whatever color you prefer */
   font-size: 11px;
-}
-
-.contenedor-list li:nth-child(1)::before {
-  content: "▮ ";
-  color: gray; /* or whatever color you prefer */
-  font-size: 11px;
+  margin-left: 2px;
 }
 
 .contenedor-list li:nth-child(2) {
   color: #e9bd15; /* or whatever color you prefer */
-  font-size: 11px;
-}
-
-.contenedor-list li:nth-child(2)::before {
-  content: "▮ ";
-  color: #e9bd15; /* or whatever color you prefer */
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .contenedor-list li:nth-child(3) {
   color: green; /* or whatever color you prefer */
-  font-size: 11px;
+  font-size: 15px;
 }
 
-.contenedor-list li:nth-child(3)::before {
-  content: "▮ ";
-  color: green; /* or whatever color you prefer */
-  font-size: 12px;
-}
-
-.lista-tipo-doc {
+.lista-tipo-doc li {
   display: block;
-  padding-bottom: 15%;
+  padding-bottom: 12px;
+  display: list-item;
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+.lista-tipo-doc li:nth-child(1) {
+  color: green; /* or whatever color you prefer */
+  font-size: 8px;
+}
+.lista-tipo-doc li:nth-child(2) {
+  color: gray; /* or whatever color you prefer */
+  font-size: 8px;
+}
+.lista-tipo-doc li:nth-child(3) {
+  color: #ffdb58; /* or whatever color you prefer */
+  font-size: 8px;
+}
+.lista-tipo-doc li:nth-child(4) {
+  color: #ffdb58; /* or whatever color you prefer */
+  font-size: 8px;
+}
+.lista-tipo-doc li:nth-child(5) {
+  color: gray; /* or whatever color you prefer */
+  font-size: 8px;
+}
+.lista-tipo-doc li:nth-child(6) {
+  color: gray; /* or whatever color you prefer */
+  font-size: 8px;
 }
 
 /*
@@ -181,3 +183,26 @@ ul {
     overflow: auto;
   }
 }
+textarea:focus,
+input:focus {
+  background-color: #ff0000;
+}
+
+.form-group select,
+#username {
+  background: #eeeded;
+  color: gray;
+}
+
+/*
+#div-username .icon {
+  position: absolute;
+  top: 75%;
+  left: 88%;
+  transform: translateY(-50%);
+  color: white;
+  width: 40px;
+  background-color: blue;
+  text-align: center;
+}
+*/

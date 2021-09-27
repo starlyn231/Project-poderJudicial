@@ -1,26 +1,31 @@
 import React from "react";
 import "./breadcrumb.css";
-function Breadcrumb() {
+function Breadcrumb(props) {
   return (
     <>
-      <ul class="collapsed">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">First link</a>
-        </li>
-        <li>
-          <a href="#">Second link</a>
-        </li>
-        <li>
-          <a href="#">Another lengthier link</a>
-        </li>
-        <li>
-          <a href="#">Final link in the hierarchy</a>
-        </li>
-        <li>Current page</li>
-      </ul>
+      <div className="row crumbs">
+        <ul className="col-sm col-12">
+          <li>
+            <a href="">Recepcion</a>
+          </li>
+          <li>
+            <a href="">Inmoliario</a>
+          </li>
+          <li>
+            <a href="">partes</a>
+          </li>
+          <li>
+            <a href="">Documentos</a>
+          </li>
+          <li>
+            <a href="">Tasas Judiciales</a>
+          </li>
+
+          <li>
+            <a href="">Verificacion</a>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }
